@@ -1,0 +1,36 @@
+:root {
+  --linear-gradient-background: linear-gradient(#753682, #bf2e34) fixed;
+  --text-color: #fefefe;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+body {
+  height: 90vh;
+  background: var(--linear-gradient-background);
+}
+img {
+  top: 20px;
+  left: 20px;
+  width: 50px;
+}
+.main {
+  width: 900px;
+  height: 300px;
+  border-radius: 9px;
+  overflow: hidden;
+  font-size: 200px;
+  color: var(--text-color);
+}
+.hours,
+.minutes,
+.seconds {
+  width: 250px;
+  height: 80%;
+  margin: auto;
+  border-radius: 20px;
+  font-size: 200px;
+  color: var(--text-color);
+}

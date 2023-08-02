@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      defer
+      src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/logo-white.svg" />
+    <script defer src="javascript/script.js"></script>
+  </head>
+  <body>
+    <img src="images/logo-white.svg" alt="Logo" class="position-absolute" />
+    <div
+      class="position-absolute top-50 start-50 translate-middle d-flex justify-content-center rounded-circle clock"
+    >
+      <div
+        class="position-relative d-flex justify-content-center rounded-circle microClock"
+      >
+        <div class="position-absolute microLine"></div>
+        <div class="minuteTable">
+          <div class="whitePart"></div>
+          <div class="blackPart"></div>
+          <div class="whitePart"></div>
+        </div>
+      </div>
+      <div class="position-absolute minuteTable">
+        <div class="whitePart"></div>
+        <div class="blackPart"></div>
+        <div class="whitePart"></div>
+      </div>
+      <div class="position-absolute sec"></div>
+      <div class="position-absolute text-center w-50 stopWatch">
+        <span class="minutes">00</span>:<span class="seconds">00</span>,<span
+          class="microsecunds"
+          >00</span
+        >
+      </div>
+      <div class="start">
+        <div class="up"></div>
+        <div class="down"></div>
+      </div>
+      <div class="reset">
+        <div class="up"></div>
+        <div class="down"></div>
+      </div>
+      <div class="block">
+        <div class="rounded-circle circle"></div>
+        <div class="bottomCircle"></div>
+      </div>
+    </div>
+  </body>
+</html>

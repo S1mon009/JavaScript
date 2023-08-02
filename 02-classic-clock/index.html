@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/logo-white.svg" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      defer
+      src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <script defer src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script defer src="javascript/script.js"></script>
+    <title>Classic clock</title>
+  </head>
+  <body>
+    <img src="images/logo-black.svg" alt="Logo" class="position-absolute" />
+    <div
+      class="position-absolute top-50 start-50 translate-middle rounded-circle container"
+    >
+      <span
+        class="position-absolute d-block top-50 start-50 translate-middle line"
+      ></span>
+      <span class="position-absolute d-block top-50 start-50 line"></span>
+      <span class="d-block top-50 start-50 hour"></span>
+      <span class="d-block top-50 start-50 minute"></span>
+      <span class="d-block top-50 start-50 teiseks"></span>
+    </div>
+  </body>
+</html>
