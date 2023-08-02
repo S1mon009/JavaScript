@@ -5,7 +5,7 @@
 
 My Clock was created using Bootstrap 5 and jQuery, you can use it as you wish and it's free for personal or commercial use.
 
-![02-classic-clock](https://github.com/S1mon009/JavaScript/assets/105738321/99d597d4-7ea7-47fd-b27a-da3cee2dd37b)
+![02-classic-clock](https://github.com/S1mon009/JavaScript/assets/105738321/a4c7eb7b-bb72-4b9d-94a2-7fd8074714c5)
 
 # Instalation
 
