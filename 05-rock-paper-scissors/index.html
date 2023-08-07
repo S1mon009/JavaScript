@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      defer
+      src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+    ></script>
+    <link rel="stylesheet" href="scss/style.scss" />
+    <link rel="icon" href="images/logo-white.svg" />
+    <script defer type="module" src="javascript/script.js"></script>
+    <title>Rock, paper, scissors</title>
+  </head>
+  <body>
+    <div class="position-absolute top-50 start-50 translate-middle popup">
+      <span class="popup-text"></span>
+    </div>
+    <nav
+      class="position-fixed w-100 d-flex align-items-center justify-content-between"
+    >
+      <img src="images/logo-white.svg" alt="Logo" />
+      <button
+        class="position-relative fw-bold fs-3 restart-btn"
+        data-restart="restart"
+      >
+        <span>Restart!</span> <i class="fa-solid fa-rotate-right"></i>
+      </button>
+    </nav>
+    <div
+      class="position-absolute top-50 d-flex flex-wrap w-100 fw-bold fs-3 result"
+    >
+      <div class="position-relative d-flex justify-content-center w-100 output">
+        <span class="d-block rounded-circle user-choice"> </span>
+        <span class="d-block rounded-circle computer-choice"></span>
+      </div>
+      <div class="fw-bold text-center w-100 score">0 - 0</div>
+    </div>
+    <div
+      class="position-fixed bottom-0 start-0 w-100 d-flex justify-content-around flex-wrap play-buttons"
+    >
+      <button class="position-relative fw-bold fs-3" data-rock="rock">
+        Rock</button
+      ><button class="position-relative fw-bold fs-3" data-paper="paper">
+        Paper</button
+      ><button class="position-relative fw-bold fs-3" data-scissors="scissors">
+        Scissors
+      </button>
+    </div>
+  </body>
+</html>

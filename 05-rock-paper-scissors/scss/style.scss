@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+$body-background-color: #333;
+$text-color: #fefefe;
+$border-button-background-color: #111;
+
+@mixin padding($y, $x) {
+  padding: $y $x;
+}
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: $text-color;
+  background: $body-background-color;
+  .popup {
+    display: none;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    .popup-text {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: center;
+    }
+  }
+  nav {
+    @include padding(10px, 20px);
+    z-index: 3;
+    img {
+      width: 50px;
+    }
+  }
+  button {
+    @include padding(10px, 20px);
+    width: 300px;
+    outline: none;
+    border: 2px solid $border-button-background-color;
+    color: $body-background-color;
+    background: $text-color;
+    transition: 0.3s all;
+    i {
+      position: absolute;
+      font-size: 0px;
+    }
+    &::before,
+    &::after {
+      position: absolute;
+      content: "";
+      background: $border-button-background-color;
+      transition: 0.3s all;
+    }
+    &::before {
+      top: 0;
+      right: 0;
+      width: 6px;
+      height: calc(100% + 4px);
+      transform: translate(7px, 1px) skewY(45deg);
+    }
+    &::after {
+      bottom: 0;
+      left: 0;
+      width: calc(100% + 3px);
+      height: 6px;
+      transform: translate(1px, 8px) skewX(45deg);
+    }
+    &:active {
+      transform: translate(6px, 6px);
+    }
+    &:active::before {
+      width: 0px;
+      right: 6px;
+    }
+    &:active::after {
+      height: 0px;
+      bottom: 6px;
+    }
+  }
+  .result {
+    @include padding(20px, 20px);
+    row-gap: 30px;
+    transform: translateY(-60%);
+    img {
+      width: 90%;
+    }
+    .output {
+      column-gap: 100px;
+      &::before {
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: -20px;
+        transform: translateY(-50%);
+        width: calc(100% + 40px);
+        height: 20px;
+        background: $text-color;
+        z-index: -1;
+      }
+      span {
+        width: 200px;
+        aspect-ratio: 1/1;
+        border: 10px solid $text-color;
+        background: $body-background-color;
+        i {
+          position: relative;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%) rotate(45deg);
+          font-size: 120px;
+        }
+      }
+    }
+    .score {
+      font-size: 60px;
+    }
+  }
+  .play-buttons {
+    @include padding(60px, 40px);
+    gap: 20px;
+  }
+  @media (max-width: 700px) {
+    nav {
+      button {
+        width: 80px;
+      }
+    }
+    button {
+      span {
+        display: none;
+      }
+      i {
+        position: relative;
+        display: block;
+        font-size: 30px;
+      }
+    }
+    .result {
+      .output {
+        span {
+          i {
+            font-size: 100px;
+          }
+        }
+      }
+    }
+    .play-buttons {
+      transform: translateY(30px);
+      button {
+        width: 100%;
+      }
+    }
+  }
+}
