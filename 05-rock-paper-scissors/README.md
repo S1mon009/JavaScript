@@ -14,7 +14,7 @@ Download project files. After downloading files run your command line and go to 
     npm install
 ```
 
-After instalation run this command
+After instalation run this command:
 
 ```bash
    npm run start
