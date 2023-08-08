@@ -6,7 +6,7 @@ $switch-form-border-background-color-active: #000;
 body {
   background: $body-background-color;
   .form-container {
-    width: clamp(300px, 80%, 400px);
+    width: clamp(100%, 80%, 400px);
     padding: 20px;
     border-radius: 10px;
     background: $form-background-color;
@@ -35,6 +35,11 @@ body {
           background: $switch-form-border-background-color-active;
         }
       }
+    }
+  }
+  @media (max-width: 400px) {
+    .form-container {
+      border-radius: 0px;
     }
   }
 }
