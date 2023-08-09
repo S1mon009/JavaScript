@@ -4,7 +4,7 @@
 
 My Game was created using Bootstrap 5, jQuery and Parcel.js, you can use it as you wish and it's free for personal or commercial use.
 
-![05-rock-paper-scissors](https://github.com/S1mon009/JavaScript/assets/105738321/db34f014-ca9f-4130-b45f-f01c66ec28fe)
+![05-rock-paper-scissors](https://github.com/S1mon009/JavaScript/assets/105738321/e7c0d7a7-2b97-456f-9534-66b02e1e67c6)
 
 # Instalation
 
