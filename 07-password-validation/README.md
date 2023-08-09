@@ -4,7 +4,7 @@
 
 My Password Validation was created using Bootstrap 5, JavaScript and Parcel.js, you can use it as you wish and it's free for personal or commercial use.
 
-![07-password-validation](https://github.com/S1mon009/JavaScript/assets/105738321/3b277ac7-16be-4bf0-aadf-e6cff7bf28a8)
+![07-password-validation](https://github.com/S1mon009/JavaScript/assets/105738321/d248d174-d176-482e-b0d7-c0f7075f241e)
 
 # Instalation
 
