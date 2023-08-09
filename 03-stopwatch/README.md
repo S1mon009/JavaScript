@@ -5,7 +5,7 @@
 
 My Stopwatch was created using Bootstrap 5 and JavaScript, you can use it as you wish and it's free for personal or commercial use.
 
-![03-stopwatch](https://github.com/S1mon009/JavaScript/assets/105738321/709942bb-4dd5-4a79-829d-a672133a1203)
+![03-stopwatch](https://github.com/S1mon009/JavaScript/assets/105738321/37e88725-d6dc-485b-81ce-a4ee4109001c)
 
 # Instalation
 
