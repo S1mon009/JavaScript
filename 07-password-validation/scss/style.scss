@@ -1,0 +1,46 @@
+$body-background-color: #222;
+$text-color: #999;
+$correct-color: rgba(0, 255, 0, 0.3);
+
+body {
+  color: $text-color;
+  background: $body-background-color;
+  img {
+    top: 20px;
+    left: 20px;
+    width: 50px;
+  }
+  form {
+    padding: 20px;
+    border: 2px solid $text-color;
+    border-radius: 20px;
+    .input-container {
+      input {
+        padding: 10px 35px 10px 20px;
+        border: 2px solid $text-color;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        color: $text-color;
+        background: transparent;
+        &:focus {
+          outline: none;
+        }
+      }
+      i {
+        position: absolute;
+        top: 32px;
+        right: 30px;
+        cursor: pointer;
+      }
+    }
+    .contains {
+      ul {
+        li.active {
+          text-decoration: line-through;
+          color: $correct-color;
+          transition: 0.3s;
+        }
+      }
+    }
+  }
+}

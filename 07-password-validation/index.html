@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
+    />
+    <script
+      defer
+      src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+    ></script>
+    <link rel="stylesheet" href="scss/style.scss" />
+    <link rel="icon" href="images/logo-white.svg" />
+    <script defer src="javascript/script.js"></script>
+    <title>Password validation</title>
+  </head>
+  <body class="container">
+    <img src="images/logo-white.svg" alt="Logo" class="position-absolute" />
+    <form class="position-absolute top-50 start-50 translate-middle fs-4">
+      <div class="input-container">
+        <input type="password" />
+        <i class="bi bi-eye-slash"></i>
+      </div>
+      <div class="contains">
+        <ul>
+          <li>Minimum 8 characters</li>
+          <li>Big letter A-Z</li>
+          <li>Number 0-9</li>
+          <li>Special character</li>
+        </ul>
+      </div>
+    </form>
+  </body>
+</html>
