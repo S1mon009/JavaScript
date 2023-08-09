@@ -5,7 +5,7 @@
 
 My Character Count was created using Bootstrap 5 and JavaScript, you can use it as you wish and it's free for personal or commercial use.
 
-![04-character-count](https://github.com/S1mon009/JavaScript/assets/105738321/d06252ad-5b03-4e5d-b549-f101daeb3fe3)
+![04-character-count](https://github.com/S1mon009/JavaScript/assets/105738321/eb53db4c-97bf-4f94-b7fc-dcd0affc4c9b)
 
 # Instalation
 
