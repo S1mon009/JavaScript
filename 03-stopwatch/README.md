@@ -1,7 +1,7 @@
 # Stopwatch
 
 ![MIT License](https://img.shields.io/badge/Author-S1mon009-blue.svg) ![Static Badge](https://img.shields.io/badge/HTML-html?logo=html5&labelColor=%23595959&color=%23E34F26)
-![Static Badge](https://img.shields.io/badge/CSS-CSS?logo=css3&logoColor=%231572B6&labelColor=%23555&color=%231572B6) ![Static Badge](https://img.shields.io/badge/Bootstrap-bootstrap?logo=bootstrap&labelColor=%23595959&color=%237952B3) ![Static Badge](https://img.shields.io/badge/JavaScript-JavaScript?logo=javascript&logoColor=%23F7DF1E&labelColor=%23555&color=%23F7DF1E)
+![Static Badge](https://img.shields.io/badge/CSS-CSS?logo=css3&logoColor=%231572B6&labelColor=%23555&color=%231572B6) ![Static Badge](https://img.shields.io/badge/Bootstrap-bootstrap?logo=bootstrap&labelColor=%23595959&color=%237952B3) ![Static Badge](https://img.shields.io/badge/JavaScript-JavaScript?logo=javascript&logoColor=%23F7DF1E&labelColor=%23555&color=%23F7DF1E) ![Static Badge](https://img.shields.io/badge/npm-npm?logo=npm&logoColor=%23CB3837&labelColor=%23555&color=%23CB3837)
 
 My Stopwatch was created using Bootstrap 5 and JavaScript, you can use it as you wish and it's free for personal or commercial use.
 
