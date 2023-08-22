@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script
+      defer
+      src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+    ></script>
+    <script defer type="module" src="javascript/script.js"></script>
+    <link rel="icon" href="images/logo-white.svg" />
+    <link rel="stylesheet" href="scss/style.scss" />
+    <title>Drag and drop file</title>
+  </head>
+  <body class="bg-dark text-light">
+    <img src="images/logo-white.svg" alt="Logo" class="position-absolute" />
+    <div
+      class="position-absolute top-50 start-50 translate-middle picker-container"
+    >
+      <div
+        class="position-relative w-100 h-100 d-flex justify-content-center align-items-center input-container"
+      >
+        <input
+          type="file"
+          accept="image/png, image/jpeg, image/jpg"
+          class="input-file"
+        />
+      </div>
+    </div>
+  </body>
+</html>

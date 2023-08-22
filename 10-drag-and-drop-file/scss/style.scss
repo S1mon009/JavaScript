@@ -1,0 +1,49 @@
+$btn-background-color: #6c757d;
+$text-color: #d5f5ff;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: $text-color;
+  img {
+    top: 20px;
+    left: 20px;
+    width: 50px;
+  }
+  .picker-container {
+    width: clamp(90%, 90%, 500px);
+    height: 300px;
+    .input-container {
+      border: 5px dashed $btn-background-color;
+      border-radius: 20px;
+      background-position: center;
+      &::before {
+        position: absolute;
+        content: "Drag and drop or";
+        top: 60px;
+        font-size: 25px;
+        z-index: -1;
+      }
+      input[type="file"]::file-selector-button {
+        padding: 10px 30px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        color: $text-color;
+        background: $btn-background-color;
+      }
+    }
+  }
+  @media (max-width: 450px) {
+    .picker-container {
+      height: 250px;
+    }
+  }
+  @media (max-width: 350px) {
+    .picker-container {
+      height: 150px;
+    }
+  }
+}
