@@ -1,4 +1,5 @@
 $btn-background-color: #6c757d;
+$btn-hover-background-color: #5c636a;
 $text-color: #d5f5ff;
 * {
   padding: 0;
@@ -6,6 +7,7 @@ $text-color: #d5f5ff;
   box-sizing: border-box;
 }
 body {
+  // background: #0707d7;
   color: $text-color;
   img {
     top: 20px;
@@ -19,6 +21,7 @@ body {
       border: 5px dashed $btn-background-color;
       border-radius: 20px;
       background-position: center;
+      transition: 0.3s all;
       &::before {
         position: absolute;
         content: "Drag and drop or";
@@ -33,6 +36,11 @@ body {
         border-radius: 5px;
         color: $text-color;
         background: $btn-background-color;
+        transition: 0.3s all;
+        cursor: pointer;
+        &:hover {
+          background: $btn-hover-background-color;
+        }
       }
     }
   }

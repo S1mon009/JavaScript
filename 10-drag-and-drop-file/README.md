@@ -41,3 +41,8 @@ After instalation run this command:
 August 22, 2023
 
 - Initial release
+
+August 23, 2023
+
+- Updated style.scss
+- Updated script.js
