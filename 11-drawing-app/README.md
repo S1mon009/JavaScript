@@ -4,7 +4,7 @@
 
 My Drawing App was created using Bootstrap 5, JavaScript and Parcel.js, you can use it as you wish and it's free for personal or commercial use.
 
-![10-drag-and-drop-file](https://github.com/S1mon009/JavaScript/assets/105738321/e170b368-d103-4dc6-a1e8-28b4ba53e52b)
+![11-drawing-app](https://github.com/S1mon009/JavaScript/assets/105738321/68113924-8cf2-4c76-9288-6bffb0e4ceb9)
 
 # Instalation
 
@@ -23,6 +23,7 @@ After instalation run this command:
 # Features
 
 - Bootstrap 5.3.1
+- Bootstrap icons
 - Parcel.js
 - Sass
 - Easy to use
@@ -36,6 +37,6 @@ After instalation run this command:
 
 # Changelogs
 
-August 23, 2023
+September 02, 2023
 
 - Initial release
