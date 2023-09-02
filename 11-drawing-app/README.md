@@ -24,6 +24,7 @@ After instalation run this command:
 
 - Bootstrap 5.3.1
 - Bootstrap icons
+- JavaScript
 - Parcel.js
 - Sass
 - Easy to use
