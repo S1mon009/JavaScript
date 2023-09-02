@@ -11,7 +11,6 @@ const pickedColor = document.querySelector("#pick-color");
 const clearCanvas = document.querySelector(".clear");
 const saveImg = document.querySelector(".save");
 const ctx = canvas.getContext("2d");
-
 let prevMouseX,
   prevMouseY,
   snapshot,
