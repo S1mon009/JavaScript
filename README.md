@@ -25,3 +25,17 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="40" alt="npm logo"  />
 </div>
+
+##
+# 🔗Live Demo
+- [01-electronic-clock](https://01-electronic-clock.netlify.app)
+- [02-classic-clock](https://02-classic-clock.netlify.app)
+- [03-stopwatch](https://03-stopclock.netlify.app)
+- [04-character-count](https://04-character-count.netlify.app)
+- [05-rock-paper-scissors](https://05-rock-paper-scissors.netlify.app)
+- [06-login-form-with-bootstrap-validation](https://06-login-form.netlify.app)
+- [07-password-validation](https://07-password-validation.netlify.app)
+- [08-text-to-speech](https://08-text-to-speech.netlify.app)
+- [09-rgba-generator](https://09-rgba-generator.netlify.app)
+- [10-drag-and-drop-file](https://10-drag-and-drop-file.netlify.app)
+- [11-drawing-app](https://11-drawing-app.netlify.app)
