@@ -1,0 +1,98 @@
+:root {
+  --first-color: #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 50px;
+  top: 20px;
+  left: 20px;
+}
+
+.container {
+  aspect-ratio: 1;
+  border: 7px solid var(--first-color);
+  width: 400px;
+}
+
+.line, .line:nth-child(2) {
+  width: 5px;
+  height: 95%;
+}
+
+.line:nth-child(2) {
+  transform: translate(-50%, -50%)rotate(90deg);
+}
+
+.line:before, .line:after {
+  content: "";
+  background: var(--first-color);
+  border-radius: 3px;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  left: 0;
+}
+
+.line:before {
+  top: 0;
+}
+
+.line:after {
+  bottom: 0;
+}
+
+.hour {
+  width: 5px;
+  height: 95%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.hour:before {
+  content: "";
+  background: var(--first-color);
+  border-radius: 3px;
+  width: 100%;
+  height: 45%;
+  position: absolute;
+}
+
+.minute {
+  width: 3px;
+  height: 90%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.minute:before {
+  content: "";
+  background: var(--first-color);
+  border-radius: 2px;
+  width: 100%;
+  height: 40%;
+  position: absolute;
+}
+
+.teiseks {
+  width: 2px;
+  height: 95%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.teiseks:before {
+  content: "";
+  background: var(--first-color);
+  border-radius: 1px;
+  width: 100%;
+  height: 30%;
+  position: absolute;
+}
+
+/*# sourceMappingURL=index.b2625c6b.css.map */

@@ -1,0 +1,2 @@
+:root{--body-background-color:#f3effe;--border-color:#ddd;--active-border-color:#7026ed;--wrong-input:red}*{box-sizing:border-box;margin:0;padding:0}body{background:var(--body-background-color)}img{width:50px;top:20px;left:20px}.container{width:300px}textarea{border:3px solid var(--border-color);resize:none;outline:none;height:200px;padding:10px}textarea:focus{border:3px solid var(--active-border-color)}span{transform:translate(-15px,30px)}
+/*# sourceMappingURL=index.a451b3f5.css.map */

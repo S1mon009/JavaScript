@@ -1,0 +1,2 @@
+:root{--linear-gradient-background:linear-gradient(#753682,#bf2e34)fixed;--text-color:#fefefe}*{box-sizing:0;margin:0;padding:0}body{background:var(--linear-gradient-background);height:90vh}img{width:50px;top:20px;left:20px}.main{color:var(--text-color);border-radius:9px;width:900px;height:300px;font-size:200px;overflow:hidden}.hours,.minutes,.seconds{color:var(--text-color);border-radius:20px;width:250px;height:80%;margin:auto;font-size:200px}
+/*# sourceMappingURL=index.e00f601a.css.map */

@@ -1,0 +1,3 @@
+const e=document.querySelectorAll("input"),t=document.querySelector(".background"),c=document.querySelector("button"),n=document.querySelector("i"),a=document.querySelector("code");let o=255,r=255,i=255,u=1;async function l(e){try{await navigator.clipboard.writeText(e)}catch(e){alert("Failed to copy: ",e)}}e.forEach((e,c)=>{e.addEventListener("input",function(){(function(e,t){switch(e){case 0:o=t;break;case 1:r=t;break;case 2:i=t;break;case 3:u=t}})(c,e.value),function(){let e=`rgba(${o},${r},${i},${u})`;t.style.background=e,a.textContent=e}()})}),c.addEventListener("click",function(){n.className="bi bi-check-lg",l(a.innerHTML),setTimeout(()=>{n.className="bi bi-clipboard"},1500)});//# sourceMappingURL=index.7716182a.js.map
+
+//# sourceMappingURL=index.7716182a.js.map

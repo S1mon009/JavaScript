@@ -1,0 +1,165 @@
+@import "https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap";
+body {
+  color: #fefefe;
+  background: #333;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+body .popup {
+  z-index: 2;
+  background: #00000080;
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+  display: none;
+}
+
+body .popup .popup-text {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+body nav {
+  z-index: 3;
+  padding: 10px 20px;
+}
+
+body nav img {
+  width: 50px;
+}
+
+body button {
+  color: #333;
+  background: #fefefe;
+  border: 2px solid #111;
+  outline: none;
+  width: 300px;
+  padding: 10px 20px;
+  transition: all .3s;
+}
+
+body button i {
+  font-size: 0;
+  position: absolute;
+}
+
+body button:before, body button:after {
+  content: "";
+  background: #111;
+  transition: all .3s;
+  position: absolute;
+}
+
+body button:before {
+  width: 6px;
+  height: calc(100% + 4px);
+  top: 0;
+  right: 0;
+  transform: translate(7px, 1px)skewY(45deg);
+}
+
+body button:after {
+  width: calc(100% + 3px);
+  height: 6px;
+  bottom: 0;
+  left: 0;
+  transform: translate(1px, 8px)skewX(45deg);
+}
+
+body button:active {
+  transform: translate(6px, 6px);
+}
+
+body button:active:before {
+  width: 0;
+  right: 6px;
+}
+
+body button:active:after {
+  height: 0;
+  bottom: 6px;
+}
+
+body .result {
+  row-gap: 30px;
+  padding: 20px;
+  transform: translateY(-60%);
+}
+
+body .result img {
+  width: 90%;
+}
+
+body .result .output {
+  column-gap: 100px;
+}
+
+body .result .output:before {
+  content: "";
+  z-index: -1;
+  background: #fefefe;
+  width: calc(100% + 40px);
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  transform: translateY(-50%);
+}
+
+body .result .output span {
+  aspect-ratio: 1;
+  background: #333;
+  border: 10px solid #fefefe;
+  width: 200px;
+}
+
+body .result .output span i {
+  font-size: 120px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)rotate(45deg);
+}
+
+body .result .score {
+  font-size: 60px;
+}
+
+body .play-buttons {
+  gap: 20px;
+  padding: 60px 40px;
+}
+
+@media (width <= 700px) {
+  body nav button {
+    width: 80px;
+  }
+
+  body button span {
+    display: none;
+  }
+
+  body button i {
+    font-size: 30px;
+    display: block;
+    position: relative;
+  }
+
+  body .result .output span i {
+    font-size: 100px;
+  }
+
+  body .play-buttons {
+    transform: translateY(30px);
+  }
+
+  body .play-buttons button {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=index.8368275b.css.map */

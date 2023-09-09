@@ -43,4 +43,10 @@ body {
       }
     }
   }
+  @media (max-width: 450px) {
+    form {
+      margin: 10px;
+      padding: 10px;
+    }
+  }
 }

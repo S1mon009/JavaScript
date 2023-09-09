@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.ab0485ab.css">
+    <script defer="" src="/index.cc073436.js"></script>
+    <link rel="stylesheet" href="/index.8368275b.css">
+    <link rel="icon" href="/logo-white.f1347049.svg">
+    <script defer="" src="/index.72a83a3b.js"></script>
+    <title>Login form with Bootstrap validation</title>
+  </head>
+  <body class="container">
+    <div class="position-absolute top-50 start-50 translate-middle form-container">
+      <div class="d-flex align-items-center justify-content-center logo">
+        <img src="/logo-black.28342957.svg" alt="Logo">
+      </div>
+      <div class="d-flex w-100 login-choose">
+        <button class="btn w-50 choose-btn active">Log in</button>
+        <button class="btn w-50 choose-btn">Sign in</button>
+      </div>
+      <form class="row g-3 needs-validation" novalidate="">
+        <div class="col-md-12">
+          <label for="validationCustomUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required="">
+            <div class="invalid-feedback">Please choose a username.</div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label for="validationCustom01" class="form-label">Password</label>
+          <input type="password" class="form-control" id="validationCustom01" required="">
+          <div class="valid-feedback">Looks good!</div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary w-100" type="submit">Log in</button>
+        </div>
+      </form>
+      <form class="d-none row g-3 needs-validation" novalidate="">
+        <div class="col-md-6">
+          <label for="validationCustom01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationCustom01" required="">
+          <div class="valid-feedback">Looks good!</div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationCustom02" required="">
+          <div class="valid-feedback">Looks good!</div>
+        </div>
+        <div class="col-md-12">
+          <label for="validationCustomUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required="">
+            <div class="invalid-feedback">Please choose a username.</div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label for="validationCustomUsername" class="form-label">Password</label>
+          <div class="input-group has-validation">
+            <input type="password" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required="">
+            <div class="invalid-feedback">Please choose a password.</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationCustom03" required="">
+          <div class="invalid-feedback">Please provide a valid city.</div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom04" class="form-label">State</label>
+          <select class="form-select" id="validationCustom04" required="">
+            <option selected="" disabled="" value="">Choose...</option>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+          </select>
+          <div class="invalid-feedback">Please select a valid state.</div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required="">
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary w-100" type="submit">Sign in</button>
+        </div>
+      </form>
+    </div>
+  <script src="/06-login-form-with-bootstrap-validation.3464ddca.js"></script></body>
+</html>
