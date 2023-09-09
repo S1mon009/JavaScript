@@ -1,1 +1,83 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="/index.f6c391b5.css"><link rel="stylesheet" href="/index.fffe1b8e.css"><script defer src="/index.3f59ad87.js"></script><script defer src="/index.2608ff21.js"></script><link rel="icon" href="/logo-white.e60ab653.svg"><link rel="stylesheet" href="/index.ed625620.css"><title>Drawing app</title></head><body> <img src="/logo-white.e60ab653.svg" alt="Logo" class="position-absolute"> <div class="box position-absolute start-50 top-50 translate-middle"> <nav class="bg-white float-start h-100 position-relative"> <div class="box-item"> <span class="label text-black-50">Pick color</span> <div class="flex-nowrap input-group"> <span class="input-group-text" id="addon-wrapping"><i class="bi bi-eyedropper"></i></span> <input type="color" class="form-control" aria-label="Pick color" aria-describedby="addon-wrapping" id="pick-color"> </div> </div> <div class="box-item"> <span class="label text-black-50">Size</span> <div class="flex-nowrap input-group"> <span class="input-group-text size" id="addon-wrapping">1</span> <input type="range" class="form-control" aria-label="Pick color" aria-describedby="addon-wrapping" id="size-slider" min="1" max="30" step="1" value="1"> </div> </div> <div class="box-item"> <span class="label text-black-50">Options</span> <ul class="w-100"> <li> <button class="brush btn btn-primary text-start w-100"> <span class="position-absolute"><i class="bi bi-pencil"></i></span>Brush </button> </li> <li> <button class="btn btn-outline-primary eraser text-start w-100"> <span class="position-absolute"><i class="bi bi-eraser"></i></span>Eraser </button> </li> <li> <button class="btn btn-outline-primary fill-color text-start w-100"> <span class="position-absolute"><i class="bi bi-paint-bucket"></i></span>Fill color </button> </li> </ul> </div> <div class="box-item"> <span class="label text-black-50">Shapes</span> <ul class="w-100"> <li> <button class="btn btn-outline-primary text-start tool w-100" id="rectangle"> <span class="position-absolute"><i class="bi bi-square"></i></span>Rectangle </button> </li> <li> <button class="btn btn-outline-primary text-start tool w-100" id="circle"> <span class="position-absolute"><i class="bi bi-circle"></i></span>Circle </button> </li> <li> <button class="btn btn-outline-primary text-start tool w-100" id="triangle"> <span class="position-absolute"><i class="bi bi-triangle"></i></span>Triangle </button> </li> </ul> </div> <div class="box-item"> <button class="btn btn-outline-primary clear w-100"> Clear image </button> <button class="btn btn-primary save w-100">Save as image</button> </div> </nav> <canvas class="float-start h-100"></canvas> </div> </body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.ab0485ab.css">
+    <link rel="stylesheet" href="/index.5af28429.css">
+    <script defer="" src="/index.cc073436.js"></script>
+    <script defer="" src="/index.72a83a3b.js"></script>
+    <link rel="icon" href="/logo-white.f1347049.svg">
+    <link rel="stylesheet" href="/index.8368275b.css">
+    <title>Drawing app</title>
+  </head>
+  <body>
+    <img src="/logo-white.f1347049.svg" alt="Logo" class="position-absolute">
+
+    <div class="position-absolute top-50 start-50 translate-middle box">
+      <nav class="position-relative h-100 bg-white float-start">
+        <div class="box-item">
+          <span class="text-black-50 label">Pick color</span>
+          <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping"><i class="bi bi-eyedropper"></i></span>
+            <input type="color" class="form-control" aria-label="Pick color" aria-describedby="addon-wrapping" id="pick-color">
+          </div>
+        </div>
+        <div class="box-item">
+          <span class="text-black-50 label">Size</span>
+          <div class="input-group flex-nowrap">
+            <span class="input-group-text size" id="addon-wrapping">1</span>
+            <input type="range" class="form-control" aria-label="Pick color" aria-describedby="addon-wrapping" id="size-slider" min="1" max="30" step="1" value="1">
+          </div>
+        </div>
+        <div class="box-item">
+          <span class="text-black-50 label">Options</span>
+          <ul class="w-100">
+            <li>
+              <button class="btn btn-primary w-100 text-start brush">
+                <span class="position-absolute"><i class="bi bi-pencil"></i></span>Brush
+              </button>
+            </li>
+            <li>
+              <button class="btn btn-outline-primary w-100 text-start eraser">
+                <span class="position-absolute"><i class="bi bi-eraser"></i></span>Eraser
+              </button>
+            </li>
+            <li>
+              <button class="btn btn-outline-primary w-100 text-start fill-color">
+                <span class="position-absolute"><i class="bi bi-paint-bucket"></i></span>Fill color
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="box-item">
+          <span class="text-black-50 label">Shapes</span>
+          <ul class="w-100">
+            <li>
+              <button class="btn btn-outline-primary w-100 text-start tool" id="rectangle">
+                <span class="position-absolute"><i class="bi bi-square"></i></span>Rectangle
+              </button>
+            </li>
+            <li>
+              <button class="btn btn-outline-primary w-100 text-start tool" id="circle">
+                <span class="position-absolute"><i class="bi bi-circle"></i></span>Circle
+              </button>
+            </li>
+            <li>
+              <button class="btn btn-outline-primary w-100 text-start tool" id="triangle">
+                <span class="position-absolute"><i class="bi bi-triangle"></i></span>Triangle
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="box-item">
+          <button class="btn btn-outline-primary w-100 clear">
+            Clear image
+          </button>
+          <button class="btn btn-primary w-100 save">Save as image</button>
+        </div>
+      </nav>
+      <canvas class="h-100 float-start"></canvas>
+    </div>
+  <script src="/11-drawing-app.3464ddca.js"></script></body>
+</html>
