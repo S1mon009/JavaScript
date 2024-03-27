@@ -6,20 +6,20 @@ body {
   color: $text-color;
   background: $body-background-color;
   img {
-    top: 20px;
-    left: 20px;
-    width: 50px;
+    top: 1.25rem;
+    left: 1.25rem;
+    width: 3.125rem;
   }
   form {
-    padding: 20px;
-    border: 2px solid $text-color;
-    border-radius: 20px;
+    padding: 1.25rem;
+    border: 0.125rem solid $text-color;
+    border-radius: 1.25rem;
     .input-container {
       input {
-        padding: 10px 35px 10px 20px;
-        border: 2px solid $text-color;
-        border-radius: 20px;
-        margin-bottom: 20px;
+        padding: 0.625rem 2.1875rem 0.625rem 1.25rem;
+        border: 0.125rem solid $text-color;
+        border-radius: 1.25rem;
+        margin-bottom: 1.25rem;
         color: $text-color;
         background: transparent;
         &:focus {
@@ -28,8 +28,8 @@ body {
       }
       i {
         position: absolute;
-        top: 32px;
-        right: 30px;
+        top: 2rem;
+        right: 1.875rem;
         cursor: pointer;
       }
     }
@@ -43,10 +43,10 @@ body {
       }
     }
   }
-  @media (max-width: 450px) {
+  @media (max-width: 28.125rem) {
     form {
-      margin: 10px;
-      padding: 10px;
+      margin: 0.625rem;
+      padding: 0.625rem;
     }
   }
 }

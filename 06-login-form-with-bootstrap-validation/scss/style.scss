@@ -6,19 +6,19 @@ $switch-form-border-background-color-active: #000;
 body {
   background: $body-background-color;
   .form-container {
-    width: clamp(100%, 80%, 400px);
-    padding: 20px;
-    border-radius: 10px;
+    width: clamp(100%, 80%, 25rem);
+    padding: 1.25rem;
+    border-radius: 0.625rem;
     background: $form-background-color;
     .logo {
-      padding: 10px;
+      padding: 0.625rem;
       img {
-        width: 50px;
+        width: 3.125rem;
       }
     }
     .login-choose {
-      margin-bottom: 20px;
-      border-bottom: 3px solid $switch-form-border-background-color;
+      margin-bottom: 1.25rem;
+      border-bottom: 0.1875rem solid $switch-form-border-background-color;
       button {
         position: relative;
         border: none;
@@ -29,17 +29,17 @@ body {
           position: absolute;
           content: "";
           left: 0;
-          bottom: -2px;
+          bottom: -0.125rem;
           width: 100%;
-          height: 2px;
+          height: 0.125rem;
           background: $switch-form-border-background-color-active;
         }
       }
     }
   }
-  @media (max-width: 400px) {
+  @media (max-width: 25rem) {
     .form-container {
-      border-radius: 0px;
+      border-radius: 0rem;
     }
   }
 }

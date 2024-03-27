@@ -24,20 +24,20 @@ body {
   background: var(--background-color);
 }
 img {
-  top: 20px;
-  left: 20px;
-  height: 40px;
+  top: 1.25rem;
+  left: 1.25rem;
+  height: 2.5rem;
 }
 .clock {
   z-index: 5;
-  width: 400px;
+  width: 25rem;
   aspect-ratio: 1/1;
-  border: 4px solid var(--background-color);
+  border: 0.25rem solid var(--background-color);
   background: var(--background-color);
-  box-shadow: 0 -5px 5px var(--stopwatch-box-shadow-one),
-    inset 0 -15px 15px var(--stopwatch-box-shadow-one),
-    0 15px 15px var(--stopwatch-box-shadow-two),
-    inset 0 15px 15px var(--stopwatch-box-shadow-two);
+  box-shadow: 0 -0.3125rem 0.3125rem var(--stopwatch-box-shadow-one),
+    inset 0 -0.9375rem 0.9375rem var(--stopwatch-box-shadow-one),
+    0 0.9375rem 0.9375rem var(--stopwatch-box-shadow-two),
+    inset 0 0.9375rem 0.9375rem var(--stopwatch-box-shadow-two);
 }
 .clock::after {
   background: var(--background-color);
@@ -50,22 +50,22 @@ img {
   width: 10%;
   height: 10%;
   z-index: 10;
-  box-shadow: 10px 50px 70px var(--stopwatch-box-shadow-two),
-    inset 5px 5px 10px var(--stopwatch-box-shadow-three),
-    inset 5px 5px 20px var(--stopwatch-box-shadow-two);
+  box-shadow: 0.625rem 3.125rem 4.375rem var(--stopwatch-box-shadow-two),
+    inset 0.3125rem 0.3125rem 0.625rem var(--stopwatch-box-shadow-three),
+    inset 0.3125rem 0.3125rem 1.25rem var(--stopwatch-box-shadow-two);
 }
 .microClock {
   z-index: 2;
-  width: 90px;
-  height: 90px;
+  width: 5.625rem;
+  height: 5.625rem;
   top: 15%;
   left: 20.5%;
-  border: 4px solid var(--background-color);
+  border: 0.25rem solid var(--background-color);
   background: var(--background-color);
-  box-shadow: 0 -15px 15px var(--stopwatch-box-shadow-one),
-    inset 0 -15px 15px var(--stopwatch-box-shadow-one),
-    0 15px 15px var(--stopwatch-box-shadow-two),
-    inset 0 15px 15px var(--stopwatch-box-shadow-two);
+  box-shadow: 0 -0.9375rem 0.9375rem var(--stopwatch-box-shadow-one),
+    inset 0 -0.9375rem 0.9375rem var(--stopwatch-box-shadow-one),
+    0 0.9375rem 0.9375rem var(--stopwatch-box-shadow-two),
+    inset 0 0.9375rem 0.9375rem var(--stopwatch-box-shadow-two);
 }
 .microClock::after {
   background: var(--microseconds-color);
@@ -81,29 +81,29 @@ img {
 }
 .stopWatch {
   z-index: 9;
-  border-radius: 40px;
-  transform: translateY(220px);
-  font-size: 40px;
-  padding-top: 10px;
+  border-radius: 2.5rem;
+  transform: translateY(13.75rem);
+  font-size: 2.5rem;
+  padding-top: 0.625rem;
   width: 50%;
   height: 20%;
   background: var(--stopwatch-background);
-  box-shadow: 10px 50px 70px var(--stopwatch-box-shadow-one),
-    inset 0px 20px 10px var(--stopwatch-box-shadow-three),
-    inset 0px -20px 20px var(--stopwatch-box-shadow-three),
-    inset 0px 20px 20px var(--stopwatch-box-shadow-three),
-    inset 0px -20px 20px var(--stopwatch-box-shadow-three);
+  box-shadow: 0.625rem 3.125rem 4.375rem var(--stopwatch-box-shadow-one),
+    inset 0rem 1.25rem 0.625rem var(--stopwatch-box-shadow-three),
+    inset 0rem -1.25rem 1.25rem var(--stopwatch-box-shadow-three),
+    inset 0rem 1.25rem 1.25rem var(--stopwatch-box-shadow-three),
+    inset 0rem -1.25rem 1.25rem var(--stopwatch-box-shadow-three);
 }
 .start {
   z-index: 9;
-  width: 40px;
-  height: 40px;
-  transform: translate(175px, 20px) rotate(45deg);
+  width: 2.5rem;
+  height: 2.5rem;
+  transform: translate(10.9375rem, 1.25rem) rotate(45deg);
   transition: 0.1s all;
   cursor: pointer;
 }
 .start:active {
-  transform: translate(170px, 25px) rotate(45deg);
+  transform: translate(10.625rem, 1.5625rem) rotate(45deg);
 }
 .start:active .down {
   height: 35%;
@@ -113,7 +113,7 @@ img {
   z-index: 1;
   height: 50%;
   background: var(--button-up-background-color);
-  border-radius: 5px;
+  border-radius: 0.3125rem;
 }
 .down {
   z-index: 2;
@@ -126,46 +126,46 @@ img {
 }
 .reset {
   z-index: 9;
-  width: 40px;
-  height: 40px;
-  transform: translate(-180px, 20px) rotate(315deg);
+  width: 2.5rem;
+  height: 2.5rem;
+  transform: translate(-11.25rem, 1.25rem) rotate(315deg);
   transition: 0.1s all;
   cursor: pointer;
 }
 .reset:active {
-  transform: translate(-175px, 25px) rotate(315deg);
+  transform: translate(-10.9375rem, 1.5625rem) rotate(315deg);
 }
 .reset:active .down {
   height: 35%;
 }
 .block {
   z-index: 9;
-  width: 80px;
-  height: 140px;
-  transform: translate(-85px, -125px);
+  width: 5rem;
+  height: 8.75rem;
+  transform: translate(-5.3125rem, -7.8125rem);
 }
 .circle {
-  width: 80px;
+  width: 5rem;
   aspect-ratio: 1/1;
-  border: 4px solid var(--background-color);
+  border: 0.25rem solid var(--background-color);
   background: var(--background-color);
-  transform: translateY(20px);
-  box-shadow: 0 -5px 5px var(--stopwatch-box-shadow-one),
-    inset 0 -5px 5px var(--stopwatch-box-shadow-one),
-    0 5px 5px var(--stopwatch-box-shadow-two),
-    inset 0 5px 5px var(--stopwatch-box-shadow-two);
+  transform: translateY(1.25rem);
+  box-shadow: 0 -0.3125rem 0.3125rem var(--stopwatch-box-shadow-one),
+    inset 0 -0.3125rem 0.3125rem var(--stopwatch-box-shadow-one),
+    0 0.3125rem 0.3125rem var(--stopwatch-box-shadow-two),
+    inset 0 0.3125rem 0.3125rem var(--stopwatch-box-shadow-two);
 }
 .bottomCircle {
-  width: 30px;
-  height: 40px;
-  border-radius: 10px 10px 0 0;
-  border: 4px solid var(--background-color);
+  width: 1.875rem;
+  height: 2.5rem;
+  border-radius: 0.625rem 0.625rem 0 0;
+  border: 0.25rem solid var(--background-color);
   background: var(--background-color);
-  transform: translateY(2px);
-  box-shadow: 0 -5px 5px var(--stopwatch-box-shadow-three),
-    inset 0 -5px 5px var(--stopwatch-box-shadow-three),
-    0 5px 5px var(--stopwatch-box-shadow-two),
-    inset 0 5px 5px var(--stopwatch-box-shadow-two);
+  transform: translateY(0.125rem);
+  box-shadow: 0 -0.3125rem 0.3125rem var(--stopwatch-box-shadow-three),
+    inset 0 -0.3125rem 0.3125rem var(--stopwatch-box-shadow-three),
+    0 0.3125rem 0.3125rem var(--stopwatch-box-shadow-two),
+    inset 0 0.3125rem 0.3125rem var(--stopwatch-box-shadow-two);
   margin: 0 auto;
 }
 .minuteTable {
@@ -196,9 +196,9 @@ img {
   width: 1%;
   background: var(--seconds-color);
   border-radius: 50% 50% 0 0;
-  -webkit-box-shadow: 0px -15px 26px 0px var(--seconds-color);
-  -moz-box-shadow: 0px -15px 26px 0px var(--seconds-color);
-  box-shadow: 0px -15px 26px 0px var(--seconds-color);
+  -webkit-box-shadow: 0rem -0.9375rem 1.625rem 0rem var(--seconds-color);
+  -moz-box-shadow: 0rem -0.9375rem 1.625rem 0rem var(--seconds-color);
+  box-shadow: 0rem -0.9375rem 1.625rem 0rem var(--seconds-color);
 }
 .microLine {
   height: 30%;

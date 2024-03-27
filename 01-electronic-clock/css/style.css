@@ -12,25 +12,25 @@ body {
   background: var(--linear-gradient-background);
 }
 img {
-  top: 20px;
-  left: 20px;
-  width: 50px;
+  top: 1.25rem;
+  left: 1.25rem;
+  width: 3.125rem;
 }
 .main {
-  width: 900px;
-  height: 300px;
-  border-radius: 9px;
+  width: 56.25rem;
+  height: 18.75rem;
+  border-radius: 0.5625rem;
   overflow: hidden;
-  font-size: 200px;
+  font-size: 12.5rem;
   color: var(--text-color);
 }
 .hours,
 .minutes,
 .seconds {
-  width: 250px;
+  width: 15.625rem;
   height: 80%;
   margin: auto;
-  border-radius: 20px;
-  font-size: 200px;
+  border-radius: 1.25rem;
+  font-size: 12.5rem;
   color: var(--text-color);
 }
